@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: ghostwhite;">
+    <header class="container-fluid text-bg-success">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="../index.html"><img src="./images/ramlogo.png" width="200" alt="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-semibold">
+                        <li class="nav-item pe-lg-5 text-lg-center">
+                            <a class="nav-link text-white" href="">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item pe-lg-5 text-lg-center">
+                            <a class="nav-link text-white" href="">सुखरामजी महाराज - जानकारी</a>
+                        </li>
+                        <li class="nav-item pe-lg-5 text-lg-center">
+                            <a class="nav-link text-white" href="">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item pe-lg-5 text-lg-center">
+                            <a class="nav-link text-white" href="./upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark fw-semibold" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                ग्रंथ संपदा Download
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">हिंदी वाणीजी</a></li>
+                                <li><a class="dropdown-item" href="#">मराठी वाणीजी</a></li>
+                                <li><a class="dropdown-item" href="#">English Literature</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3">रामद्वारा (जगतपाल) जलगांव
+                        महाराष्ट्र संचलित</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="text-center fw-bold my-3 mx-1" style="font-size: 4vw;">
+        आदि सतगुरू सुखरामजी महाराज ने धन्य हो ...!
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide px-lg-5 mx-lg-5" data-bs-ride="carousel">
+        <div class="carousel-inner px-lg-5 mx-lg-5">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./images/cover_pic.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/cover_pic.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/cover_pic.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container mb-5">
+        <fieldset class="border border-2 rounded-3 px-5 mt-lg-5 mt-3">
+            <legend class="float-none text-center bg-warning p-2 rounded-3 fw-bold">
+                आदि सतगुरू सुखरामजी महाराज कहते है,
+            </legend>
+            <div class=""><span class="bi bi-record-fill"></span> राम नाम लो, भाग जगाओ ।</div>
+            <div class=""><span class="bi bi-record-fill"></span> राम नाम लेने से असंभव काम संभव होते ।</div>
+            <div class=""><span class="bi bi-record-fill"></span> काम की शुरुवात ही राम नाम से करो ।</div>
+            <div class=""><span class="bi bi-record-fill"></span> बच्चों को शिक्षा में भी आगे लाओ ।</div>
+            <div class=""><span class="bi bi-record-fill"></span> जनम मरण रहित देश में चलो ।</div>
+        </fieldset>
+    </div>
+    
+</body>
+
+</html>
