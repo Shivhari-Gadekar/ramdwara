@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramdwara Jagatpal Jalgaon</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- Header -->
     <header class="container-fluid text-bg-success">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid justify-content-lg-around">
@@ -37,8 +41,8 @@
                             <a class="nav-link text-white" href="./public/upkram.html">हमारे उपक्रम</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-item dropdown-toggle btn btn-warning text-dark fw-semibold" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false" >
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark fw-semibold" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 ग्रंथ संपदा Download
                             </a>
                             <ul class="dropdown-menu">
@@ -48,12 +52,72 @@
                             </ul>
                         </li>
                     </ul>
-                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3">रामद्वारा (जगतपाल) जलगांव महाराष्ट्र संचलित</div>
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3">रामद्वारा (जगतपाल) जलगांव
+                        महाराष्ट्र संचलित</div>
                 </div>
             </div>
         </nav>
     </header>
-    <h1 class="text-center mt-5">Home</h1>
+
+    <div class="text-center fw-bold my-3 mx-1" style="font-size: 4vw;">
+        आदि सतगुरू सुखरामजी महाराज ने धन्य हो ...!
+    </div>
+
+    <!-- Carousel -->
+    <div id="carouselExampleControls" class="carousel slide px-lg-5 mx-lg-5" data-bs-ride="carousel">
+        <div class="carousel-inner px-lg-5 mx-lg-5">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./public/images/cover_pic.jpg" class="d-block w-100" alt="Ramdwara Pic">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./public/images/cover_pic.jpg" class="d-block w-100" alt="Ramdwara Pic">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./public/images/cover_pic.jpg" class="d-block w-100" alt="Ramdwara Pic">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Slogan -->
+    <div class="container mb-5">
+        <fieldset class="border border-2 rounded-3 px-5 mt-lg-5 mt-3">
+            <legend class="float-none text-center bg-warning p-2 rounded-3 fw-bold">
+                आदि सतगुरू सुखरामजी महाराज कहते है,
+            </legend>
+            <div class=""><span class="bi bi-record-fill"></span> राम नाम लो, भाग जगाओ ।</div>
+            <div class=""><span class="bi bi-record-fill"></span> राम नाम लेने से असंभव काम संभव होते ।</div>
+            <div class=""><span class="bi bi-record-fill"></span> काम की शुरुवात ही राम नाम से करो ।</div>
+            <div class=""><span class="bi bi-record-fill"></span> बच्चों को शिक्षा में भी आगे लाओ ।</div>
+            <div class=""><span class="bi bi-record-fill"></span> जनम मरण रहित देश में चलो ।</div>
+        </fieldset>
+    </div>
+
+<!-- Footer -->
+    <div class="container-fluid bg-dark">
+        <footer class="py-3 mt-4">
+          <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://wa.me/12345678900?text=Hello%20Ram%20Ram%20Sa!" target="_blank" class="nav-link px-2 text-white"><span class="bi bi-whatsapp"></span> +91 9403478524</a></li>
+            <li class="nav-item"><a href="mailto:example@example.com?subject=Your%20Subject&body=Hello%20there!" class="nav-link px-2 text-white"><span class="bi bi-envelope"></span> Send Email</a></li>
+          </ul>
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="www.youtube.com/@ramdwara_Jagat_jalgaon" target="_blank" class="nav-link px-2 text-white"><span class="bi bi-youtube"></span> ramdwara_jagat_jalgaon</a></li>
+            <li class="nav-item"><a href="https://www.instagram.com/ramdwara_jagatpal_jalgaon" class="nav-link px-2 text-white"><span class="bi bi-instagram"></span> ramdwara_jagatpal_jalgaon</a></li>
+            <li class="nav-item"><a href="https://www.facebook.com/ramdwarajagatpaljalgaon" class="nav-link px-2 text-white"><span class="bi bi-facebook"></span> ramdwarajagatpaljalgaon</a></li>
+          </ul>
+          <p class="text-center text-white">© 2024 Ramdwara.com</p>
+        </footer>
+      </div>
+
 </body>
 
 </html>
