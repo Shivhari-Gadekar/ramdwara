@@ -19,8 +19,8 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid justify-content-lg-around">
                 <div class="navbar-brand">
-                    <a href="./index.html"><img src="./public/images/ramlogo.png" width="200" alt="logo"
-                            class="img-responsive"></a>
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo"
+                            class="img-fluid img-responsive" style="max-width: 200px;"></a>
                 </div>
                 <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -65,8 +65,8 @@
     </div>
 
     <!-- Carousel -->
-    <div id="carouselExampleControls" class="carousel slide px-lg-5 mx-lg-5" data-bs-ride="carousel">
-        <div class="carousel-inner px-lg-5 mx-lg-5">
+    <div id="carouselExampleControls" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width: 800px;">
+        <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="2000">
                 <img src="./public/images/cover_pic.jpg" class="d-block w-100" alt="Ramdwara Pic">
             </div>
@@ -91,15 +91,19 @@
 
     <!-- Slogan -->
     <div class="container mb-5">
-        <fieldset class="border border-2 rounded-3 px-5 mt-lg-5 mt-3">
+        <fieldset class="border border-3 rounded-3 px-5 mt-lg-5 mt-3">
             <legend class="float-none text-center bg-warning p-2 rounded-3 fw-bold">
                 आदि सतगुरू सुखरामजी महाराज कहते है,
             </legend>
-            <div class=""><span class="bi bi-record-fill"></span> राम नाम लो, भाग जगाओ ।</div>
-            <div class=""><span class="bi bi-record-fill"></span> राम नाम लेने से असंभव काम संभव होते ।</div>
-            <div class=""><span class="bi bi-record-fill"></span> काम की शुरुवात ही राम नाम से करो ।</div>
-            <div class=""><span class="bi bi-record-fill"></span> बच्चों को शिक्षा में भी आगे लाओ ।</div>
-            <div class=""><span class="bi bi-record-fill"></span> जनम मरण रहित देश में चलो ।</div>
+
+            <ul>
+                <li class="mb-3 fs-5">राम नाम लो, भाग जगाओ ।</li>
+                <li class="mb-3 fs-5">राम नाम लेने से असंभव काम संभव होते ।</li>
+                <li class="mb-3 fs-5">काम की शुरुवात ही राम नाम से करो ।</li>
+                <li class="mb-3 fs-5">बच्चों को शिक्षा में भी आगे लाओ ।</li>
+                <li class="mb-3 fs-5">जनम मरण रहित देश में चलो ।</li>
+            </ul>
+
         </fieldset>
     </div>
 
@@ -110,30 +114,34 @@
                 <li class="nav-item">
                     <a href="https://wa.me/+919403478524?text=Hello,%20राम%20राम%20" target="_blank"
                         class="nav-link px-2 text-white">
-                        <span class="bi bi-whatsapp"></span> +91 9403478524
+                        <span class="bi bi-whatsapp pe-1 text-success"></span> +91 9403478524
                     </a>
                 </li>
                 <li class="nav-item">
                     <a href="mailto:ramdwarajagatpal@gmail.com?subject=I%20have%20a%20query&body=Hello,%20Ram%20Ram%20Sa"
                         target="_blank" class="nav-link px-2 text-white">
-                        <span class="bi bi-envelope"></span> ramdwarajagatpal@gmail.com
+                        <span class="bi bi-envelope pe-1"></span> ramdwarajagatpal@gmail.com
                     </a>
                 </li>
             </ul>
 
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="https://www.youtube.com/@ramdwara_jagat_jalgaon" target="_blank"
-                        class="nav-link px-2 text-white"><span class="bi bi-youtube"></span> ramdwara_jagat_jalgaon</a>
+                        class="nav-link px-2 text-white"><span class="bi bi-youtube text-danger pe-1"></span>
+                        ramdwara_jagat_jalgaon</a>
                 </li>
                 <li class="nav-item"><a href="https://www.instagram.com/ramdwara_jagatpal_jalgaon" target="_blank"
-                        class="nav-link px-2 text-white"><span class="bi bi-instagram"></span>
-                        ramdwara_jagatpal_jalgaon</a></li>
+                        class="nav-link px-2 text-white"><span
+                            class="bi bi-instagram bg-danger bg-gradient rounded rounded-5"></span>
+                        <span class="ps-1">ramdwara_jagatpal_jalgaon</span>
+                    </a></li>
                 <li class="nav-item"><a href="https://www.facebook.com/ramdwarajagatpaljalgaon" target="_blank"
-                        class="nav-link px-2 text-white"><span class="bi bi-facebook"></span>
+                        class="nav-link px-2 text-white"><span class="bi bi-facebook pe-1 text-primary"></span>
                         ramdwarajagatpaljalgaon</a></li>
             </ul>
-            <p class="text-center text-white">© 2024 Ramdwara.com</p>
+            <p class="text-center text-white">&copy; 2008-2024 Ramdwara. All rights reserved.</p>
         </footer>
+
     </div>
 
 </body>
