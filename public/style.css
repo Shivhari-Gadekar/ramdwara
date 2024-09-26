@@ -5,14 +5,34 @@
     .logo {
         width: 180px;
     }
-    .navbar-expand-lg .navbar-collapse {
-        display: block !important;
-    }
     .dropdown:hover .dropdown-menu {
         display: block;
         margin-top: 0;
     }
+    .navbar-expand-md .navbar-collapse {
+        display: block !important;
+    }
 }
-.navbar-expand-lg .navbar-nav {
+
+.navbar-expand-md .navbar-nav {
     justify-content: space-around;
-}      
+}
+
+.table-head {
+    background-color: #b2b6b2 !important;
+    border-top: 5px solid white !important;
+    border-bottom: 5px solid white !important;
+}
+
+.baniji-section li{
+    line-height: 2rem;
+}
+
+.baniji-section li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.custom-nav-font-size {
+    font-size: 1.1rem;
+}

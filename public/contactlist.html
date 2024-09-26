@@ -11,11 +11,6 @@
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
     <style>
-        @media (min-width: 992px) {
-            .custom-font-size {
-                font-size: 1.5rem;
-            }
-        }
         tr td a{
             text-decoration: none;
         }
@@ -23,15 +18,15 @@
 </head>
 
 <body>
-    <header class="container-fluid text-bg-success custom-font-size">
-        <nav class="navbar navbar-expand-lg">
+    <header class="container-fluid text-bg-success">
+        <nav class="navbar navbar-expand-md">
             <div class="container-fluid justify-content-lg-around">
                 <div class="navbar-brand">
                     <a href="../index.html"><img src="../public/images/ramlogo.png" alt="logo" class="logo"></a>
                 </div>
-                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0" style="font-size: 1.2rem;">
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size">
                         <li class="nav-item text-lg-center">
                             <a class="nav-link text-white" href="../index.html">मुखपृष्ठ</a>
                         </li>
@@ -45,7 +40,7 @@
                             <a class="nav-link text-white" href="../public/upkram.html">हमारे उपक्रम</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">आदि सतगुरु सुखरामजी महाराज की अणभै वाणी <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="../public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
@@ -74,7 +69,7 @@
        <a class="btn btn-primary" target="_blank" title="All Ramdwara Contact" href="./docs/contact.pdf">Download <i class="bi bi-arrow-down-circle-fill"></i></a>
     </div>
 
-    <div class="container my-5">
+    <div class="container my-5" style="max-width: 830px !important;">
         <table class="table table-hover table-bordered text-center">
             <thead>
                 <tr>
@@ -85,7 +80,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <th colspan="3" class="fs-3">महाराष्ट्र</th>
+                    <th colspan="3" class="fs-3 table-head">महाराष्ट्र</th>
                 </tr>
                 <tr>
                     <th scope="row">पुणे आकुर्डी</th>
@@ -293,7 +288,7 @@
                     <td><p><a href="tel:9822644596">9822644596</a></p><a href="tel:8087779925">8087779925</a></td>
                 </tr>
                 <tr>
-                    <th colspan="3" class="fs-3">मध्य प्रदेश</th>
+                    <th colspan="3" class="fs-3 table-head">मध्य प्रदेश</th>
                 </tr>
                 <tr>
                     <th scope="row">इंदौर (महूँ)</th>
@@ -316,7 +311,7 @@
                     <td><p><a href="tel:7489305077">7489305077</a></p><p><a href="tel:9511239843">9511239843</a></p><a href="tel:9753411187">9753411187</a></td>
                 </tr>
                 <tr>
-                    <th colspan="3" class="fs-3">राजस्थान</th>
+                    <th colspan="3" class="fs-3 table-head">राजस्थान</th>
                 </tr>
                 <tr>
                     <th scope="row">सांडेराव</th>
@@ -334,7 +329,7 @@
                     <td><p><a href="tel:9352549303">9352549303</a></p><p><a href="tel:7568551316">7568551316</a></p><a href="tel:9753411187">9636352035</a></td>
                 </tr>
                 <tr>
-                    <th colspan="3" class="fs-3">गुजरात</th>
+                    <th colspan="3" class="fs-3 table-head">गुजरात</th>
                 </tr>
                 <tr>
                     <th scope="row">उनाई (वासदा)</th>
@@ -347,7 +342,7 @@
                     <td><p><a href="tel:8980001206">8980001206</a></p><a href="tel:9924912956">9924912956</a></td>
                 </tr>
                 <tr>
-                    <th colspan="3" class="fs-3">पंजाब</th>
+                    <th colspan="3" class="fs-3 table-head">पंजाब</th>
                 </tr>
                 <tr>
                     <th scope="row">पंजाब</th>
@@ -355,7 +350,7 @@
                     <td><p><a href="tel:8054536359">8054536359</a></p><a href="tel:9922284333">9922284333</a></td>
                 </tr>
                 <tr>
-                    <th colspan="3" class="fs-3">दिल्ली</th>
+                    <th colspan="3" class="fs-3 table-head">दिल्ली</th>
                 </tr>
                 <tr>
                     <th scope="row">दिल्ली</th>
@@ -370,35 +365,30 @@
         <footer class="py-3 mt-4">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a href="https://wa.me/+919403478524?text=Hello,%20राम%20राम%20" target="_blank"
-                        class="nav-link px-2 text-white">
+                    <a href="https://wa.me/+919403478524?text=Hello,%20राम%20राम%20" target="_blank" class="nav-link px-2 text-white">
                         <i class="bi bi-whatsapp pe-1"></i> +91 9403478524
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="mailto:ramdwarajagatpal@gmail.com?subject=I%20have%20a%20query&body=Hello,%20Ram%20Ram%20Sa"
-                        target="_blank" class="nav-link px-2 text-white">
+                    <a href="mailto:ramdwarajagatpal@gmail.com?subject=I%20have%20a%20query&body=Hello,%20Ram%20Ram%20Sa" target="_blank" class="nav-link px-2 text-white">
                         <i class="bi bi-envelope pe-1"></i> ramdwarajagatpal@gmail.com
                     </a>
                 </li>
             </ul>
 
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="https://www.youtube.com/@ramdwara_jagat_jalgaon" target="_blank"
-                        class="nav-link px-2 text-white"><i class="bi bi-youtube pe-1"></i>
-                        ramdwara_jagat_jalgaon</a>
+                <li class="nav-item">
+                    <a href="https://www.youtube.com/@ramdwara_jagat_jalgaon" target="_blank" class="nav-link px-2 text-white"><i class="bi bi-youtube pe-1"></i> ramdwara_jagat_jalgaon</a>
                 </li>
-                <li class="nav-item"><a href="https://www.instagram.com/ramdwara_jagatpal_jalgaon" target="_blank"
-                        class="nav-link px-2 text-white"><i class="bi bi-instagram"></i>
-                        <span class="ps-1">ramdwara_jagatpal_jalgaon</span>
-                    </a></li>
-                <li class="nav-item"><a href="https://www.facebook.com/ramdwarajagatpaljalgaon" target="_blank"
-                        class="nav-link px-2 text-white"><i class="bi bi-facebook pe-1 "></i>
-                        ramdwarajagatpaljalgaon</a></li>
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/ramdwara_jagatpal_jalgaon" target="_blank" class="nav-link px-2 text-white"><i class="bi bi-instagram"></i> <span class="ps-1">ramdwara_jagatpal_jalgaon</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/ramdwarajagatpaljalgaon" target="_blank" class="nav-link px-2 text-white"><i class="bi bi-facebook pe-1 "></i> ramdwarajagatpaljalgaon</a>
+                </li>
             </ul>
             <p class="text-center text-white">&copy; 2010-2024 Ramdwara. All rights reserved.</p>
         </footer>
-
     </div>
 
 </body>
