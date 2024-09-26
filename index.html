@@ -9,36 +9,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./public/images/favicon.ico" type="image/x-icon">
-    <style>
-        .logo {
-            width: 120px;
-        }
-        @media (min-width: 992px) {
-            .logo {
-                width: 160px;
-            }
-            .navbar-expand-lg .navbar-collapse {
-                display: block !important;
-            }
-            .custom-font-size-nav {
-                font-size: 1.2rem;
-            }
-        }
-        .navbar-expand-lg .navbar-nav {
-            justify-content: center;
-        }      
-        
-        .dropdown:hover .dropdown-menu {
-            display: block;
-            margin-top: 0;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="./public/style.css">
 </head>
 
 <body>
     <!-- Header -->
-    <header class="container-fluid text-bg-success custom-font-size-nav">
+    <header class="container-fluid text-bg-success">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid justify-content-lg-around">
                 <div class="navbar-brand">
@@ -46,21 +22,21 @@
                 </div>
                 <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-semibold">
-                        <li class="nav-item pe-lg-5 text-lg-center">
+                    <ul class="navbar-nav mb-2 mb-lg-0" style="font-size: 1.2rem;">
+                        <li class="nav-item text-lg-center">
                             <a class="nav-link text-white" href="./index.html">मुखपृष्ठ</a>
                         </li>
-                        <li class="nav-item pe-lg-5 text-lg-center">
-                            <a class="nav-link text-white" href="./public/maharajinfo.html">सुखरामजी महाराज - जानकारी</a>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link text-white" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
                         </li>
-                        <li class="nav-item pe-lg-5 text-lg-center">
+                        <li class="nav-item text-lg-center">
                             <a class="nav-link text-white" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
                         </li>
-                        <li class="nav-item pe-lg-5 text-lg-center">
+                        <li class="nav-item text-lg-center">
                             <a class="nav-link text-white" href="./public/upkram.html">हमारे उपक्रम</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-item dropdown-toggle btn btn-warning text-dark fw-semibold mt-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> ग्रंथ संपदा [Download] </a>
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">आदि सतगुरु सुखरामजी महाराज की अणभै वाणी <i class="bi bi-arrow-down-circle-fill"></i></a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
@@ -114,9 +90,9 @@
 
     <!-- Slogan -->
     <div class="container mb-5" style="max-width: 850px;">
-        <fieldset class="border border-2 rounded-3 px-5 mt-5">
+        <fieldset class="border border-2 rounded-5 px-5 mt-5">
             <legend class="float-none d-inline text-center fw-bold" style="width: unset;">
-                <span class="bg-warning d-inline-block py-2 px-2 px-lg-5 rounded-3">आदि सतगुरू सुखरामजी महाराज कहते है,</span>
+                <span class="bg-warning d-inline-block py-2 px-2 px-lg-5 rounded-4">आदि सतगुरू सुखरामजी महाराज कहते है,</span>
             </legend>
 
             <ul>
