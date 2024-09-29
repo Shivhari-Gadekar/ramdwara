@@ -23,11 +23,12 @@
                 width: 100% !important;
             }
         }
-        header {
-            background-color: darkslategray;
+        @media (max-width: 500px) {
+            .faq {
+                width: 100% !important;
+            }
         }
-        summary {
-            font-size: 1.1rem;
+        .accordion-button {
             font-weight: 600;
         }
     </style>
@@ -35,7 +36,7 @@
 
 <body>
     <!-- Header -->
-    <header class="container-fluid">
+    <header class="container-fluid" style="background-color: darkslategray;">
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid justify-content-lg-around">
                 <div class="navbar-brand">
@@ -73,6 +74,534 @@
                     </ul>
                     
                     <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3 text-white">
+                        रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="container-fluid" style="background-color: #d4e157;">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo" class="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size">
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link text-dark" href="./index.html">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link text-dark" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link text-dark" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link text-dark" href="./public/upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/marathibani.html">मराठी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/englishbani.html">English Literature <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3" style="color: #3e2723;">
+                        रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="container-fluid" style="background-color: #c0dca1;">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo" class="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size">
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #3e2723;" href="./index.html">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #3e2723;" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #3e2723;" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #3e2723;" href="./public/upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/marathibani.html">मराठी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/englishbani.html">English Literature <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3" style="color: #3e2723;">
+                        रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="container-fluid" style="background-color: #f5f5dc;">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo" class="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size" style="color: #3e2723;">
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" href="./index.html">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" href="./public/upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/marathibani.html">मराठी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/englishbani.html">English Literature <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3" style="color: #3e2723;">
+                        रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="container-fluid" style="background-color: #fff9c4;">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo" class="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size">
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #4e342e;" href="./index.html">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #4e342e;" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #4e342e;" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #4e342e;" href="./public/upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/marathibani.html">मराठी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/englishbani.html">English Literature <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3" style="color: #4e342e;">
+                        रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="container-fluid" style="background-color: #a7d8de;">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo" class="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size">
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #3e2723;" href="./index.html">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #3e2723;" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #3e2723;" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #3e2723;" href="./public/upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/marathibani.html">मराठी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/englishbani.html">English Literature <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3" style="color: #3e2723;">
+                        रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="container-fluid" style="background-color: #e6e6fa;">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo" class="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size">
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #4b0082;" href="./index.html">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #4b0082;" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #4b0082;" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color: #4b0082;" href="./public/upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/marathibani.html">मराठी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/englishbani.html">English Literature <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3" style="color: #4b0082;">
+                        रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="container-fluid" style="background-color: #cfe8d5;">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo" class="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size">
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#2e7d32;" href="./index.html">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#2e7d32;" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#2e7d32;" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#2e7d32;" href="./public/upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/marathibani.html">मराठी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/englishbani.html">English Literature <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3" style="color:#2e7d32;">
+                        रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="container-fluid" style="background-color: #faf3e0;">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo" class="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size">
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#4a001f;" href="./index.html">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#4a001f;" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#4a001f;" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#4a001f;" href="./public/upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/marathibani.html">मराठी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/englishbani.html">English Literature <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3" style="color:#c9a000;">
+                        रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="container-fluid" style="background-color: #d0e4f5;">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo" class="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size">
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#283593;" href="./index.html">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#283593;" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#283593;" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#283593;" href="./public/upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/marathibani.html">मराठी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/englishbani.html">English Literature <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3" style="color:#283593;">
+                        रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="container-fluid" style="background-color: #ffe5b4;">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo" class="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size">
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#3e2723;" href="./index.html">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#3e2723;" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#3e2723;" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#3e2723;" href="./public/upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/marathibani.html">मराठी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/englishbani.html">English Literature <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3" style="color:#3e2723;">
+                        रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="container-fluid" style="background-color: #3e2723;">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo" class="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size">
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#ffffff;" href="./index.html">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#ffffff;" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#ffffff;" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#ffffff;" href="./public/upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/marathibani.html">मराठी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/englishbani.html">English Literature <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3" style="color:#ffffff;">
+                        रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="container-fluid" style="background-color: #a0e1e0;">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-lg-around">
+                <div class="navbar-brand">
+                    <a href="./index.html"><img src="./public/images/ramlogo.png" alt="logo" class="logo"></a>
+                </div>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="btn btn-close"></span></button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 custom-nav-font-size">
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#004d40;" href="./index.html">मुखपृष्ठ</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#004d40;" href="./public/maharajinfo.html">सुखरामजी महाराज की जानकारी</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#004d40;" href="./public/contactlist.html">सभी रामद्वारा संपर्क</a>
+                        </li>
+                        <li class="nav-item text-lg-center">
+                            <a class="nav-link" style="color:#004d40;" href="./public/upkram.html">हमारे उपक्रम</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-item dropdown-toggle btn btn-warning text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ग्रंथ संपदा <i class="bi bi-arrow-down-circle-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./public/hindibani.html">हिंदी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/marathibani.html">मराठी वाणीजी <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./public/englishbani.html">English Literature <i class="bi bi-arrow-down-circle-fill ms-1"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="text-center fw-bold mt-2 d-none d-lg-block mt-3 fs-3" style="color:#004d40;">
                         रामद्वारा (जगतपाल) जलगाँव महाराष्ट्र संचलित
                     </div>
                 </div>
@@ -134,27 +663,48 @@
     </div>
 
     <!-- Q&A -->
-    <div class="container p-3">
-        <h3>FAQ</h3>
-        <div class="container">
-            <details>
-                <summary>What is Ramdwara?</summary>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, magnam aspernatur ex suscipit laborum optio autem nostrum ullam accusamus, repellendus est commodi quia deserunt officiis dolor blanditiis facere distinctio aliquam! Reprehenderit, est! Eligendi, et facere illum deleniti at voluptates ex nesciunt tenetur doloremque, repellat alias praesentium maiores culpa velit adipisci eveniet doloribus neque necessitatibus quaerat temporibus numquam possimus hic. Ipsa, qui possimus? Tempore ipsum quibusdam, dicta illum quo nihil minus quae possimus natus animi dolores obcaecati sed sapiente ut porro.</p>
-            </details>
-            <details>
-                <summary>What is Ramdwara?</summary>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, magnam aspernatur ex suscipit laborum optio autem nostrum ullam accusamus, repellendus est commodi quia deserunt officiis dolor blanditiis facere distinctio aliquam! Reprehenderit, est! Eligendi, et facere illum deleniti at voluptates ex nesciunt tenetur doloremque, repellat alias praesentium maiores culpa velit adipisci eveniet doloribus neque necessitatibus quaerat temporibus numquam possimus hic. Ipsa, qui possimus? Tempore ipsum quibusdam, dicta illum quo nihil minus quae possimus natus animi dolores obcaecati sed sapiente ut porro.</p>
-            </details>
-            <details>
-                <summary>What is Ramdwara?</summary>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, magnam aspernatur ex suscipit laborum optio autem nostrum ullam accusamus, repellendus est commodi quia deserunt officiis dolor blanditiis facere distinctio aliquam! Reprehenderit, est! Eligendi, et facere illum deleniti at voluptates ex nesciunt tenetur doloremque, repellat alias praesentium maiores culpa velit adipisci eveniet doloribus neque necessitatibus quaerat temporibus numquam possimus hic. Ipsa, qui possimus? Tempore ipsum quibusdam, dicta illum quo nihil minus quae possimus natus animi dolores obcaecati sed sapiente ut porro.</p>
-            </details>
-            <details>
-                <summary>What is Ramdwara?</summary>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, magnam aspernatur ex suscipit laborum optio autem nostrum ullam accusamus, repellendus est commodi quia deserunt officiis dolor blanditiis facere distinctio aliquam! Reprehenderit, est! Eligendi, et facere illum deleniti at voluptates ex nesciunt tenetur doloremque, repellat alias praesentium maiores culpa velit adipisci eveniet doloribus neque necessitatibus quaerat temporibus numquam possimus hic. Ipsa, qui possimus? Tempore ipsum quibusdam, dicta illum quo nihil minus quae possimus natus animi dolores obcaecati sed sapiente ut porro.</p>
-            </details>
+    <div class="container-fluid faq w-75">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <h2><i class="bi bi-chat-left-text-fill"></i> प्रश्न उत्तर </h2>
+            <section class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        संसारात भक्ति करणे अनिवार्य आहे कां ?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        हर युग मे 'आदि सतगुरू' आते है, और यह केवलका ज्ञान जिवों तक पहुंचाते है। उन्हे भवसागरसे निकालकर अमरलोक मे लेके जाते है। ऐसेही इस कलजुगमे <strong>"आदि सतगुरू सुखरामजी महाराज"</strong> राजस्थान मे (भरत खंड मे) 'जोधपुर' जिला, बिराही' गाँव में ब्राम्हण कुलमे संमत <span class="text-danger">१७८३ चैत्र शुद्ध ९ गुरुवार - ४-४-१७२६</span> मे आये।<br><br><strong>गुरू महाराजने गर्भवास मे जनम नही लिया</strong>, बल्की "सुखराम" नामक बालक के देह मे (जब बालकका देह छुट गया) सतस्वरुप (अमर लोक) देशसे आकर प्रवेश करके देह धारण किया।
+                    </div>
+                </div>
+            </section>
+            <section class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        कोणती भक्ती केल्याने कोणते फळ मिळते ?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        हर युग मे 'आदि सतगुरू' आते है, और यह केवलका ज्ञान जिवों तक पहुंचाते है। उन्हे भवसागरसे निकालकर अमरलोक मे लेके जाते है। ऐसेही इस कलजुगमे <strong>"आदि सतगुरू सुखरामजी महाराज"</strong> राजस्थान मे (भरत खंड मे) 'जोधपुर' जिला, बिराही' गाँव में ब्राम्हण कुलमे संमत <span class="text-danger">१७८३ चैत्र शुद्ध ९ गुरुवार - ४-४-१७२६</span> मे आये।<br><br><strong>गुरू महाराजने गर्भवास मे जनम नही लिया</strong>, बल्की "सुखराम" नामक बालक के देह मे (जब बालकका देह छुट गया) सतस्वरुप (अमर लोक) देशसे आकर प्रवेश करके देह धारण किया।
+                    </div>
+                </div>
+            </section>
+            <section class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        संतांनी सर्व योनीत मनुष्य देह कां भारी सांगितला आहे ?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        हर युग मे 'आदि सतगुरू' आते है, और यह केवलका ज्ञान जिवों तक पहुंचाते है। उन्हे भवसागरसे निकालकर अमरलोक मे लेके जाते है। ऐसेही इस कलजुगमे <strong>"आदि सतगुरू सुखरामजी महाराज"</strong> राजस्थान मे (भरत खंड मे) 'जोधपुर' जिला, बिराही' गाँव में ब्राम्हण कुलमे संमत <span class="text-danger">१७८३ चैत्र शुद्ध ९ गुरुवार - ४-४-१७२६</span> मे आये।<br><br><strong>गुरू महाराजने गर्भवास मे जनम नही लिया</strong>, बल्की "सुखराम" नामक बालक के देह मे (जब बालकका देह छुट गया) सतस्वरुप (अमर लोक) देशसे आकर प्रवेश करके देह धारण किया।
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
+    
 
     <!-- Footer -->
     <div class="container-fluid bg-dark">
